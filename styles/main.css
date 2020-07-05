@@ -10,6 +10,18 @@ a {
 	color: orange;
 }
 
+h2 {
+	font-size: medium;
+	padding-top: 2%;
+	
+}
+
+h3 {
+	font-size: small;
+	padding-bottom: 2%;
+	color: orange;
+}
+
 .navbar {
 	background-color: #201f1f;
 	padding-left: 15%;
@@ -94,10 +106,15 @@ label {
 	width: 100%;
 }
 
+.article-content-padding {
+	padding-bottom: 4%;
+}
+
 footer {
 	color: white;
 	background-color: #201f1f;
 	background-image: url(/img/background.jpg);
 	background-size: cover;
 	padding: 5%;
+
 }
