@@ -110,6 +110,10 @@ label {
 	padding-bottom: 4%;
 }
 
+.article-content-padding img {
+	padding-bottom: 3%;
+}
+
 footer {
 	color: white;
 	background-color: #201f1f;
