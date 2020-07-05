@@ -1,4 +1,103 @@
-body {
-    background-color: darkblue;
-    color: darkorange;
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+a {
+	color: orange;
+}
+
+.navbar {
+	background-color: #201f1f;
+	padding-left: 15%;
+	padding-right: 15%;
+	
+}
+
+.nav-link{
+	color: orchid;
+}
+
+#collapsibleNavbar a {
+	color: white;
+}
+
+#collapsibleNavbar .current-page {
+	color: orange;
+}
+
+.jumbotron {
+	background-image: url(../img/background.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	color: white;
+	padding-left: 15%;
+	border-radius: 0%;
+}
+
+.card-body img {
+	width: 100%;
+	margin-bottom: 10%;
+	
+}
+
+.card-body li {
+	margin-bottom: 5%;
+	font-weight: bold;
+	color: orange;
+}
+
+.about-me {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.main-container {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.row {
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+.card {
+	margin-top: 5%;
+	margin-bottom: 15%;
+	padding: 20px;
+}
+
+.card-header {
+	color: white;
+	background-color: #201f1f;
+}
+
+.form-control {
+	margin-top: 2%;
+}
+
+label {
+	margin-top: 2%;
+	margin-bottom: -1%;
+}
+
+.btn {
+	background-color: orange;
+	border-color: orange;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 100%;
+}
+
+footer {
+	color: white;
+	background-color: #201f1f;
+	background-image: url(/img/background.jpg);
+	background-size: cover;
+	padding: 5%;
 }
