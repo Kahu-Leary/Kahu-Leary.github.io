@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <title>Kahu Leary | Sprint2-Cultural</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/main.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark navbar-expand-md">
+
+        <a class="navbar-brand" href="../index.html">Kahu Leary</a>
+
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+
+            <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav ml-auto">
+
+                <li class="nav-item">
+
+                    <a class="nav-link" href="../index.html">Home</a>
+
+                </li>
+
+                <li class="nav-item">
+
+                    <a class="nav-link current-page" href="blog.html">Blog</a>
+
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <header class="jumbotron">
+        <h1 class="display-4">Sprint 3 - Technical</h1>
+    </header>
+
+    <h2 class="display-4 row">Javascript and other things - Sprint Three</h2>
+
+    <div class="row">
+        <div class="col-8">
+            <h2>Kahu Leary</h2>
+            <h3>07 July 2020</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-8 article-content-padding">
+
+            <h4><strong>"An analogy to describe the differences between HTML and CSS"</strong></h4>
+
+            <p>My favourite analogy to describe them is a house, HTML is the foundation and frame of the house, it's
+                structure and CSS is the decorations of that house such as the paint/wallpaper, the curtains, and
+                everything to do with how the house looks or is presented.
+            </p>
+
+            <h4><strong>"Control flow and Loops"</strong></h4>
+
+            <p>Control flow is all about giving decision making to your programs, a flowchart that your program can
+                follow when it encounters a choice, for example an analogy to describe it, let's say you are baking a
+                cake and following a recipe, the recipe gives you alternatives to every ingredient, let's say the recipe
+                requires eggs, you go to collect the eggs but see you have run out without realizing it. Now you have a
+                choice to make "Go to the supermarket and get more eggs" or "Use alternative given in recipe" now what
+                choice you make depends on other factors, for example "do you have time to get the eggs and come back?",
+                "Is the supermarket closed and not even an option right now?". So you evaluate these conditions let's
+                say teh supermarket is closed so you go for the option that follows the condition "Supermarket is
+                closed" the choice that follows that "Use alternative given in recipe" is what you evaluate to be the
+                right choice to make.
+
+                With a control flow you are applying that same decision proccess to your program, e.g "if this is true
+                then do this (option A), if not then do something else (option B)".
+
+                As for loops, loops are simply a set of instructions to repeat or "loop" something until it is no longer
+                needed, following along with our cake analogy lets say the recipe requires "6 cups of flour" so you
+                scoop the flour and add it to the bowl of cake mix, but that's only one cup, so you repeat the action
+                again "scoop the flour" and "add to cake mix" but still that's only two cups so you repeat the proccess
+                again and as many times as you need until the cake mix has "6 cups of flour" at which point you stop
+                repeating the action.
+
+                When you write a loop you are telling your program to repeat something as many times as needed until a
+                certain condition has been met.</p>
+
+            <h4><strong>"What is the DOM"</strong></h4>
+
+            <p>The DOM (Document Object Model) is to quote Wikipedia a "Cross-platform and language-independent
+                interface that treats an XML or HTML document as a tree structure wherein each node is an object
+                representing a part of the document." to put it as simply as possible it is a modeled representation of
+                a webpage that a programming language can use to understand a webpage and all it's respective parts,
+                where they are, and allows it to manipulate and control said webpage.</p>
+
+            <p>On their own programming languages don't understand what a webpage really is, so if you were using for
+                example Javascript and you want it to change the color of an element on a webpage, say the title of the
+                page to the color red, you need a way of telling Javascript what and where that title is, and how to
+                manipulate it, that's what the DOM is, a representation of the webpage or a translation inbetween the
+                page and programming language being used so that the programming language (in this case Javascript)
+                would understand how and what to do.</p>
+
+            <h4><strong>The difference between accessing data from arrays as opposed to objects</strong></h4>
+
+            <p>First what is an array? How would you use the term array in an everyday context? Well the best example I
+                found works for me would be in the context of a car dealership saying "We have cars in a wide array of
+                colors", e.g car 1 is red, car 2 is blue, so when you think of an array just think of it as a
+                "collection" of some kind, in the abstract case of programming a collection of data. To access data in
+                an array you use the number associated with it using the index of the array (counting through the index
+                always starts at the number zero) e.g item[0], item[1], item[2]... etc, just like if those items were
+                lined up next to each other in real life and to access those specific values you say the numbered
+                position of the item in the line up, so say you want the green car in the line up which is in index
+                position 3 using what you would refer to as bracket notation you place the index number into square
+                brackets to say what car you want,in this case number 3 it would look like this cars[3].</p>
+
+            <p>So finally writing that out in a programming context var myCarPurchase = cars[3]; now the
+                "myCarsPurchase" variable contains the value of "green car"</p>
+
+            <p>Moving on to objects and what they are, to quote Wikipedia "In computer science, an object can be a
+                variable, a data structure, a function, or a method, and as such, is a value in memory referenced by an
+                identifier. In the class-based and object-oriented programming paradigms, object refers to a particular
+                instance of a class, where the object can be a combination of variables, functions, and data structures.
+                In the relational model of database management, an object can be a table or column, or an association
+                between data and a database entity (such as relating a person's age to a specific person)."</p>
+
+            <p>So using an object as a collection of data like with the array example, in order for us to access data in
+                an object you don't pass an index position like you do with the array, you would use the key associated
+                with the value you are after, so let's say we have an object called carDealerShip we want to select the
+                green car which happens to be a Toyota inside it, so rather than getting it via the index number we
+                refer to it by name in this case, which is Toyota, so carDealerShip['Toyota'] would get you the green
+                car. You can also use what's called dot notation which is simply a . directly followed by the key e.g
+                carDealerShip.Toyota, would get you the same result.</p>
+
+            <p>Examples</p>
+
+            <p>var myCarPurchase = carDealerShip['Toyota']</p>
+            <p>or</p>
+            <p>var myCarPurchase = carDealerShip.Toyota</p>
+
+            <h4><strong>"What are functions and why are they useful"</strong></h4>
+
+            <p>Functions are organised blocks of code that as the name suggests add functionality to your program. For
+                example like buttons on a tv remote, if you don't have a button on the remote to change the channel then
+                obviously you wouldn't be able to, by creating functions you can then "call" or "activate" these
+                functions from other parts of the code, and just like buttons on a tv remote you can repeatedly use
+                these functions as many times as you want e.g change the channel as many times as you want/need... etc.
+            </p>
+
+
+        </div>
+    </div>
+    <footer class="main-footer">
+        <div class="row text-center">
+
+            <div class="col-md-4">
+
+            </div>
+
+            <div class="col-md-4">
+                <p>Copyright &copy; 2020 Kahu Leary</p>
+            </div>
+
+            <div class="col-md-4">
+
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
