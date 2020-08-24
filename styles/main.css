@@ -10,9 +10,14 @@ a {
 	color: orange;
 }
 
+h1 {
+	overflow: hidden;
+}
+
 h2 {
 	font-size: medium;
 	padding-top: 2%;
+	overflow: hidden;
 	
 }
 
@@ -20,8 +25,15 @@ h3 {
 	font-size: small;
 	padding-bottom: 2%;
 	color: orange;
+	overflow: hidden;
+	
 }
 
+h4 {
+	overflow: hidden;
+}
+
+/* Navigation bar*/
 .navbar {
 	background-color: #201f1f;
 	padding-left: 15%;
@@ -41,6 +53,7 @@ h3 {
 	color: orange;
 }
 
+/*Hero image*/
 .jumbotron {
 	background-image: url(../img/background.jpg);
 	background-repeat: no-repeat;
@@ -51,31 +64,27 @@ h3 {
 	border-radius: 0%;
 }
 
+/*About me section*/
+.about-me {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
 .card-body img {
 	width: 100%;
 	margin-bottom: 10%;
 	
 }
 
-.card-body li {
-	margin-bottom: 5%;
-	font-weight: bold;
-	color: orange;
-}
-
-.about-me {
-	margin-top: 2%;
-	margin-bottom: 2%;
-}
-
-.main-container {
-	padding-left: 15%;
-	padding-right: 15%;
-}
-
+/*Main body section*/
 .row {
 	padding-left: 15%;
 	padding-right: 15%;
+}
+
+.card-header {
+	color: white;
+	background-color: #201f1f;
 }
 
 .card {
@@ -84,28 +93,24 @@ h3 {
 	padding: 20px;
 }
 
-.card-header {
-	color: white;
-	background-color: #201f1f;
-}
-
-.form-control {
+/* .form-control {
 	margin-top: 2%;
-}
+} */
 
-label {
+/* label {
 	margin-top: 2%;
 	margin-bottom: -1%;
-}
+} */
 
-.btn {
+/* .btn {
 	background-color: orange;
 	border-color: orange;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	width: 100%;
-}
+} */
 
+/*Article styling*/
 .article-content-padding {
 	padding-bottom: 4%;
 }
@@ -114,6 +119,7 @@ label {
 	padding-bottom: 3%;
 }
 
+/*Footer styling obviously :D*/
 footer {
 	color: white;
 	background-color: #201f1f;
